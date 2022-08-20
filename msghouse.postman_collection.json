@@ -1,88 +1,88 @@
 {
-	"id": "a8d5dbac-3a41-d4cb-eb7d-bab1455e524e",
-	"name": "msghouse",
-	"description": "",
-	"order": [
-		"3dceedd3-91c2-6066-3f4c-5ba7861732da"
-	],
-	"folders": [],
-	"folders_order": [],
-	"timestamp": 1660918597572,
-	"owner": "1461634",
-	"public": false,
-	"requests": [
-		{
-			"id": "3dceedd3-91c2-6066-3f4c-5ba7861732da",
-			"headers": "",
-			"headerData": [],
-			"url": "http://international.msghouse.in/api/send/sms",
-			"queryParams": [],
-			"pathVariables": {},
-			"pathVariableData": [],
-			"preRequestScript": null,
-			"method": "POST",
-			"collectionId": "a8d5dbac-3a41-d4cb-eb7d-bab1455e524e",
-			"data": [
-				{
-					"key": "campaign_name",
-					"value": "test",
-					"type": "text",
-					"enabled": true,
-					"description": ""
-				},
-				{
-					"key": "auth_key",
-					"value": "5c4ae42a351ab00383acc05281e2ee51",
-					"type": "text",
-					"enabled": true,
-					"description": ""
-				},
-				{
-					"key": "receivers",
-					"value": "8518886001",
-					"type": "text",
-					"enabled": true,
-					"description": ""
-				},
-				{
-					"key": "sender",
-					"value": "KRUSNA",
-					"type": "text",
-					"enabled": true,
-					"description": ""
-				},
-				{
-					"key": "route",
-					"value": "4",
-					"type": "text",
-					"enabled": true,
-					"description": ""
-				},
-				{
-					"key": "message",
-					"value": "{'msgdata' : '<#> Welcome to a wonderful pregnancy experience with 'Krishna Coming', OTP for your mobile 7471188684 is:1234 hPDew48C/cq','Template_ID' : 1007335835780101566,'coding' : 1}",
-					"type": "text",
-					"enabled": true,
-					"description": ""
-				},
-				{
-					"key": "scheduleTime",
-					"value": "$scheduleTime",
-					"type": "text",
-					"enabled": true,
-					"description": ""
-				}
-			],
-			"dataMode": "params",
-			"name": "send_sms",
-			"description": "",
-			"descriptionFormat": "html",
-			"time": 1660918598963,
-			"version": 2,
-			"responses": [],
-			"tests": null,
-			"currentHelper": "normal",
-			"helperAttributes": {}
-		}
-	]
+  "id": "a8d5dbac-3a41-d4cb-eb7d-bab1455e524e",
+  "name": "msghouse",
+  "description": "",
+  "order": [
+    "3dceedd3-91c2-6066-3f4c-5ba7861732da"
+  ],
+  "folders": [],
+  "folders_order": [],
+  "timestamp": 1660918597572,
+  "owner": "1461634",
+  "public": false,
+  "requests": [
+    {
+      "id": "3dceedd3-91c2-6066-3f4c-5ba7861732da",
+      "headers": "",
+      "headerData": [],
+      "url": "http://international.msghouse.in/api/send/sms",
+      "queryParams": [],
+      "pathVariables": {},
+      "pathVariableData": [],
+      "preRequestScript": null,
+      "method": "POST",
+      "collectionId": "a8d5dbac-3a41-d4cb-eb7d-bab1455e524e",
+      "data": [
+        {
+          "key": "campaign_name",
+          "value": "test",
+          "type": "text",
+          "enabled": true,
+          "description": ""
+        },
+        {
+          "key": "auth_key",
+          "value": "5c4ae42a351ab00383acc05281e2ee51",
+          "type": "text",
+          "enabled": true,
+          "description": ""
+        },
+        {
+          "key": "receivers",
+          "value": "8518886001",
+          "type": "text",
+          "enabled": true,
+          "description": ""
+        },
+        {
+          "key": "sender",
+          "value": "KRUSNA",
+          "type": "text",
+          "enabled": true,
+          "description": ""
+        },
+        {
+          "key": "route",
+          "value": "4",
+          "type": "text",
+          "enabled": true,
+          "description": ""
+        },
+        {
+          "key": "message",
+          "value": "{'msgdata' : '<#> Welcome to a wonderful pregnancy experience with 'Krishna Coming', OTP for your mobile 7471188684 is:1234 hPDew48C/cq','Template_ID' : 1007335835780101566,'coding' : 1}",
+          "type": "text",
+          "enabled": true,
+          "description": ""
+        },
+        {
+          "key": "scheduleTime",
+          "value": "scheduleTime",
+          "type": "text",
+          "enabled": true,
+          "description": ""
+        }
+      ],
+      "dataMode": "params",
+      "name": "send_sms",
+      "description": "",
+      "descriptionFormat": "html",
+      "time": 1660918598963,
+      "version": 2,
+      "responses": [],
+      "tests": null,
+      "currentHelper": "normal",
+      "helperAttributes": {}
+    }
+  ]
 }
